@@ -1,6 +1,76 @@
 ---
 ---
 
+@import "icofont/icofont.min.css";
+
+.hide {
+	display: none !important;
+}
+
 .fs-small {
 	font-size: small !important;
+}
+
+.site-title, .site-title:visited, .site-nav .page-link
+{
+	color: inherit !important;
+}
+
+body:not(.dark) {
+	background-color: #fdfdfd !important;
+	color: #111 !important;
+}
+
+body.dark {
+	background-color: #0d1117;
+	color: #c9d1d9;
+}
+
+body.dark a {
+	color: #49d6ec;
+}
+
+body.dark a:visited {
+	color: #10acc5;
+}
+
+body.dark .site-header, body.dark .site-footer {
+	border-color: #434446;
+}
+
+.nav-btn {
+	text-decoration: none !important;
+	color: inherit !important;
+}
+
+.site-nav-holder {
+	float: right;
+	display: flex;
+	align-items: center;
+}
+
+.site-nav-holder .site-nav {
+	float: left;
+}
+
+#btnToggleTheme {
+	line-height: 54px;
+	float: left;
+	margin-left: 10px;
+	color: inherit;
+}
+
+@media screen and (max-width: 600px) {
+	.site-nav {
+		right: 40px;
+	}
+
+	body.dark .site-nav {
+		background-color: inherit !important;
+		border-color: inherit !important;
+	}
+
+	body.dark .site-nav .menu-icon > svg {
+		fill: #c9d1d9;
+	}
 }

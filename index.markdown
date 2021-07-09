@@ -42,4 +42,4 @@ layout: home
 
 <br>
 
-![Praveen's GitHub stats](https://github-readme-stats.vercel.app/api?username=praveen-tamil&count_private=true&show_icons=true)
+<img id="githubStats" src="" data-src="https://github-readme-stats.vercel.app/api?username=praveen-tamil&count_private=true&show_icons=true" alt="Praveen's GitHub stats">
